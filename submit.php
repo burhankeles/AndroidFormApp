@@ -1,6 +1,6 @@
 <?php
 	include("conn.php"); //we can include other php files like this!
-	$u_firstname = $_POST['name']; //request de kullanabilirsin kontrol etmek için
+	$u_firstname = $_POST['name']; 
 	$u_lastname = $_POST['surname'];
 	$u_email = $_POST['email'];
 	$u_phonenumber = $_POST['phone'];
